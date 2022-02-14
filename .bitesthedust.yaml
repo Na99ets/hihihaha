@@ -1,0 +1,17 @@
+##### переснять дамп на bitesthedust.board.kettlec.tf
+##### исправить ошибку во флаге (возможно, в самом задании тоже)
+
+category:  misc
+points:    250
+title:     Another Bites the Dust
+author:    Kirill Kalashnikov (7), Kirill Masterskih (7)
+description: Edit app/server.py.
+flags:
+  - kettl_2021atidumalprostobudet
+urls:
+  - "https://bitesthedust.{hostname}/"
+daemon: bitesthedust/run_daemon.sh
+daemon_isolate: false
+daemon_socket_type: "http"
+daemon_socket: "app.sock"
+attachments_path: attachments
